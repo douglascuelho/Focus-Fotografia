@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Great+Vibes&display=swap');
+
+:root{
+    --cor-dourada:#EBD354;
+    --cor-clara: #EBE8A6;
+    --cor-preto: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-preto);
+}
+
+h1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 100;
+    font-size: 120px;
+    text-align: center;
+    color: var(--cor-dourada);
+}
+
+.categorias{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-clara);
+    text-align: center;
+    font-family: "Arapey", serif;
+    list-style: none;
+}
+
+#inicio, #ensaios, #casamentos, #festas, #orcamento{
+    font-size: 25px;
+    margin: 60px;
+}
+
+#inicio:hover, #ensaios:hover, #casamentos:hover, #festas:hover, #orcamento:hover{
+    color:#EBD354;
+}
+
+.categorias > li{
+    padding:10px;
+}
+
+h2{
+    font-family: "Great Vibes", cursive;
+    color: var(--cor-dourada);
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+h2:hover{
+    color:#EBE8A6;
+}
+
+.fotos{
+    display: flex;
+    margin: 10%;
+    width: 80%;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#ensaios, #casamentos, #festas, img{
+    margin: 25px;
+}
+
+img{
+    box-shadow: 15px 15px 20px 2px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+    filter: saturate(50%);
+    transition: filter 0.3s ease;
+}
+
+img:hover{
+    filter: contrast(100%);
+}
+
+.box{
+    display: flex;
+}
+
+.contato{
+    display: flex;
+    margin: 12%;
+    margin-top: 5px;
+    width: 80%;
+    flex-direction: column;
+    color: #EBE8A6;
+    font-family: "Arapey", serif;
+    font-size: 20px;
+}
+
+h3{
+    font-family: "Great Vibes", cursive;
+    color: var(--cor-dourada);
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.contato-info p{
+    padding-bottom: 14px;
+}
+
+#orcamento-form{
+    margin: 70px;
+    width: 400px;
+    height: 200px;;
+}
+
+.formulario{
+    display: flex;
+}
+
+input{
+    height: 40px;
+    margin: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    outline-color: var(--cor-dourada);
+}
+
+#mensagem{
+    margin: 7px;
+    padding: 10px;
+    width: 385px;
+    height: 120px;
+    outline-color: var(--cor-dourada);
+}
+
+button{
+    margin: 7px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background: radial-gradient(circle at center, var(--cor-dourada), var(--cor-clara));
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--cor-dourada);
+    font-family:"Arapey", serif;
+    background-image: radial-gradient(circle at center, var(--cor-preto), var(--cor-dourada));
+}
+

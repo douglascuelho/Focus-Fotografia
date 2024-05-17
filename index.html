@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Douglas Coelho">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Focus Fotografia - Eternize seus momentos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1> Focus Fotografia </h1>
+        <ul class="categorias">
+            <li id="inicio">Início</li>
+            <li id="ensaios">Ensaios</li>
+            <li id="casamentos">Casamentos</li>
+            <li id="festas">Festas</li>
+            <li id="orcamento">Orçamento</li>
+        </ul>
+    </header>
+    <section class="fotos">
+        <div id="ensaios">
+            <h2>Ensaios</h2>
+            <img src="https://images.unsplash.com/photo-1496602910407-bacda74a0fe4?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="300px"  alt="">
+            <img src="https://images.unsplash.com/photo-1457342813143-a1ae27448a82?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px" alt="">
+            <img src="https://images.unsplash.com/photo-1533171800959-236ce88bc941?q=80&w=1774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px" alt="">
+        </div>
+
+        <div id="casamentos">
+            <h2>Casamentos</h2>
+            <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px"  alt="">
+            <img src="https://images.unsplash.com/photo-1521543269800-27e08780ced7?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px" alt="">
+            <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px" alt="">
+        </div>
+
+        <div id="festas">
+            <h2>Festas</h2>
+            <img src="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px"  alt="">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px" alt="">
+            <img src="https://images.unsplash.com/photo-1496337589254-7e19d01cec44?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="322px" alt="">
+        </div>
+    </section>
+    <section class="contato">
+    <div class="box">
+        <div class="contato-info">
+            <h3>Orçamento</h3>
+            <p>Entre em contato e solicite um orçamento!</p>
+            <p id="email"><b>Email:</b> focusfotografia@dominio.com </p>
+            <p id="telefone"><b>Telefone:</b> +55 99999-9999</p>
+            <p id="endereco"><b>Endereço:</b> Rua da Fotografia, 50. Bairro Canon</p>
+            <p id="cnpj"><b>CNPJ:</b> 99.999.999/0001-99</p>
+        </div>
+        
+        <div id="orcamento-form">
+            <form action="submit" method="post">
+                <div class="formulario">
+                    <input type="text" name="nome" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </div>
+                <textarea id="mensagem" name="message" placeholder="Sua Mensagem" rows="5" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    </section>
+    <footer class="footer">
+        <p> &copy; Focus Fotografia - 2024 - All Rights Reserved </p>
+    </footer>
+    
+</body>
+</html>
